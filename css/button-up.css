@@ -1,0 +1,32 @@
+.btn-up {
+    position: fixed;
+    background-color: #333333;
+    right: 20px;
+    bottom: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    transition: all 0.2s;
+}
+
+.btn-up::before {
+    content: "";
+    width: 40px;
+    height: 40px;
+    background: transparent no-repeat center center;
+    background-size: 65% 65%;
+    background-image: url("/images/button-up.svg");
+}
+
+.btn-up_hide {
+    display: none;
+}
+
+@media (hover: hover) and (pointer: fine) {
+    .btn-up:hover {
+        opacity: 50%;
+    }
+}
