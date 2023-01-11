@@ -1238,7 +1238,7 @@ input:focus {
     .adaptive-menu {
         display: block;
         position: fixed;
-        overflow: auto;
+        overflow: scroll;
         height: 100vh;
         width: 100vw;
         left: -1000px;
