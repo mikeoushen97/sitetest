@@ -182,7 +182,7 @@ input:focus {
 .title {
     position: relative;
     width: 100%;
-    background: url(./images/title-section/bg.jpg) center no-repeat;
+    background: url(images/title-section/bg.jpg) center no-repeat;
     min-height: 904px;
 }
 
@@ -222,6 +222,10 @@ input:focus {
     position: relative;
     height: 560px;
     padding: 0 10px 0 10px;
+}
+
+.we-are__line {
+    display: none;
 }
 
 .we-are__image {
@@ -1035,6 +1039,12 @@ input:focus {
 
 @media (max-width: 1199.98px) {
 
+    .header__container {
+        display: flex;
+        justify-content: space-between;
+        padding: 74px 20px 0 20px;
+    }
+
     [class*='__title'] {
         text-align: center;
     }
@@ -1053,6 +1063,15 @@ input:focus {
 
     .we-are__container {
         height: auto;
+    }
+
+    .we-are__line {
+        display: block;
+        width: 35px;
+        height: 3px;
+        margin: 0 auto;
+        margin-top: 5px;
+        background-color: #333333;
     }
 
     .services {
