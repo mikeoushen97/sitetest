@@ -181,7 +181,7 @@ input:focus {
 .title {
     position: relative;
     width: 100%;
-    background: url(images/title-section/bg.jpg) center no-repeat;
+    background: url(/images/title-section/bg.jpg) center no-repeat;
     min-height: 904px;
 }
 
@@ -1197,6 +1197,10 @@ input:focus {
     }
 }
 
+/*!==============================================!*/
+/*!=======================800px=======================!*/
+
+
 @media (max-width: 799.98px) {
 
     .overflow-off {
@@ -1207,6 +1211,13 @@ input:focus {
         background-color: #333333;
         padding: 10px 10px 20px 10px;
         position: fixed;
+    }
+
+    .header__container {
+        flex-direction: row;
+        gap: 0;
+        justify-content: space-between;
+        padding: 20px 20px 0 20px;
     }
 
     .main__title {
@@ -1234,19 +1245,6 @@ input:focus {
 
     .burger {
         display: block;
-    }
-
-    .header__container {
-        display: flex;
-        flex-direction: column;
-        gap: 30px;
-    }
-
-    .header__container {
-        flex-direction: row;
-        gap: 0;
-        justify-content: space-between;
-        padding: 30px 20px 0 20px;
     }
 
     .menu__nav a {
@@ -1285,11 +1283,13 @@ input:focus {
 
     .card-content {
         width: auto;
+        height: auto;
         padding: 50px 10px 0 10px;
     }
 
     .card-content__border {
         gap: 10px;
+        height: auto;
     }
 
     .services__cards {
