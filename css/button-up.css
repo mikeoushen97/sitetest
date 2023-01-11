@@ -18,7 +18,7 @@
     height: 40px;
     background: transparent no-repeat center center;
     background-size: 65% 65%;
-    background-image: url("/images/button-up.svg");
+    background-image: url("../images/button-up.svg");
 }
 
 .btn-up_hide {
