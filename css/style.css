@@ -185,7 +185,7 @@ input:focus {
 .title {
     position: relative;
     width: 100%;
-    background: url(/images/title-section/bg.jpg) center no-repeat;
+    background: url(images/title-section/bg.jpg) center no-repeat;
     min-height: 904px;
 }
 
