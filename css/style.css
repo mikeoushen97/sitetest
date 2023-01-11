@@ -425,6 +425,8 @@ input:focus {
     line-height: 208%;
     letter-spacing: 1.008px;
     color: #777777;
+    column-width: 282px;
+    overflow: hidden;
 }
 
 .card-content__link {
