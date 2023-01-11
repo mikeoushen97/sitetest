@@ -215,7 +215,7 @@ input:focus {
 }
 
 .we-are {
-    padding-top: 150px;
+    padding: 130px 0 130px 0;
 }
 
 .we-are__container {
@@ -342,7 +342,7 @@ input:focus {
 .services {
     width: 100%;
     background-color: #fbfbfb;
-    padding: 135px 0 135px 0;
+    padding: 130px 0 130px 0;
 }
 
 .services__container {
@@ -461,7 +461,7 @@ input:focus {
 
 .latest {
     width: 100%;
-    padding-top: 164px;
+    padding: 164px 0 164px 0;
 }
 
 .latest__container {
@@ -681,7 +681,7 @@ input:focus {
 }
 
 .team__container {
-    padding: 150px 10px 167px 10px;
+    padding: 135px 10px 150px 10px;
 }
 
 .team__members {
@@ -1080,6 +1080,14 @@ input:focus {
         text-align: center;
     }
 
+    .column__pic {
+        display: block;
+        width: 50%;
+        height: 50%;
+        object-fit: cover;
+        margin: 0 auto;
+    }
+
     .column__text-left,
     .column__text-right {
         text-align: center;
@@ -1169,11 +1177,18 @@ input:focus {
     .column__title-left,
     .column__title-right {
         position: absolute;
-        text-align: left;
+        text-align: inherit;
         top: 0%;
-        left: 20px;
         margin: 0 auto;
         transition: 0.2s;
+    }
+
+    .latest .column__title-left {
+        text-align: right;
+    }
+
+    .latest .column__title-right {
+        text-align: left;
     }
 
     [class*='column__img'] {
@@ -1224,11 +1239,11 @@ input:focus {
     }
 
     .main__title {
-        font-size: 50px;
+        font-size: 60px;
     }
 
     .title__container {
-        padding-top: 190px;
+        padding-top: 45%;
     }
 
     .menu-active {
@@ -1261,7 +1276,9 @@ input:focus {
 
     .latest .column__title-left,
     .latest .column__title-right {
-        font-size: 38px;
+        font-size: 48px;
+        line-height: 147%;
+        padding: 20px;
     }
 
     .latest__nav {
@@ -1272,6 +1289,13 @@ input:focus {
 
     .latest__column-left {
         margin-top: 51px;
+    }
+
+    .column__pic {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
     }
 
     .services__cards hr {
@@ -1301,5 +1325,27 @@ input:focus {
 
     .footer__top {
         padding: 15px 0 15px 0;
+    }
+}
+
+@media (max-width: 489.98px) {
+
+    .main__title {
+        font-size: 50px;
+    }
+
+    .latest .column__title-left,
+    .latest .column__title-right {
+        font-size: 28px;
+        line-height: 147%;
+        padding: 20px;
+    }
+
+    .latest .column__title-left {
+        text-align: right;
+    }
+
+    .latest .column__title-right {
+        text-align: left;
     }
 }
