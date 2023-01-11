@@ -67,6 +67,7 @@ input:focus {
 }
 
 .adaptive-menu {
+    overflow: auto;
     display: none;
     height: 100vh;
     width: 100vw;
@@ -79,7 +80,7 @@ input:focus {
     display: flex;
     flex-direction: column;
     gap: 30px;
-    margin-top: 30px;
+    margin-top: 40px;
     width: 100%;
     padding-left: 20px;
 }
