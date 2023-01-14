@@ -1,4 +1,4 @@
-@import url(/css/button-up.css);
+@import url(css/button-up.css);
 
 /*?==============================================*/
 /*?=======================Reset-styles=======================*/
@@ -187,7 +187,7 @@ input:focus {
 .title {
     position: relative;
     width: 100%;
-    background: url(images/title-section/bg1.jpg) center no-repeat;
+    background: url(../images/title-section/bg1.jpg) center no-repeat;
     min-height: 904px;
     transition: all ease 1s;
     background-size: cover;
