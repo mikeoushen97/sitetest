@@ -6,19 +6,19 @@ let intervalStart = true
 
 slider[0].addEventListener('click', (event) => {
     if (event.target.classList.contains('bullet1')) {
-        bg[0].style.background = 'url(/images/title-section/bg1.jpg) center no-repeat'
+        bg[0].style.background = 'url(images/title-section/bg1.jpg) center no-repeat'
         bullet[0].classList.add('current')
         bullet[1].classList.remove('current')
         bullet[2].classList.remove('current');
     }
     if (event.target.classList.contains('bullet2')) {
-        bg[0].style.background = 'url(/images/title-section/bg2.jpg) center no-repeat'
+        bg[0].style.background = 'url(images/title-section/bg2.jpg) center no-repeat'
         bullet[1].classList.add('current')
         bullet[0].classList.remove('current')
         bullet[2].classList.remove('current');
     }
     if (event.target.classList.contains('bullet3')) {
-        bg[0].style.background = 'url(/images/title-section/bg3.jpg) center no-repeat'
+        bg[0].style.background = 'url(images/title-section/bg3.jpg) center no-repeat'
         bullet[2].classList.add('current')
         bullet[0].classList.remove('current')
         bullet[1].classList.remove('current');
@@ -33,7 +33,7 @@ function autoSlides() {
         if (intervalStart) {
             setTimeout(() => {
                 if (intervalStart) {
-                    bg[0].style.background = 'url(/images/title-section/bg1.jpg) center no-repeat'
+                    bg[0].style.background = 'url(images/title-section/bg1.jpg) center no-repeat'
                     bullet[0].classList.add('current')
                     bullet[1].classList.remove('current')
                     bullet[2].classList.remove('current')
@@ -42,7 +42,7 @@ function autoSlides() {
 
             setTimeout(() => {
                 if (intervalStart) {
-                    bg[0].style.background = 'url(/images/title-section/bg2.jpg) center no-repeat'
+                    bg[0].style.background = 'url(images/title-section/bg2.jpg) center no-repeat'
                     bullet[1].classList.add('current')
                     bullet[0].classList.remove('current')
                     bullet[2].classList.remove('current')
@@ -51,7 +51,7 @@ function autoSlides() {
 
             setTimeout(() => {
                 if (intervalStart) {
-                    bg[0].style.background = 'url(/images/title-section/bg3.jpg) center no-repeat'
+                    bg[0].style.background = 'url(images/title-section/bg3.jpg) center no-repeat'
                     bullet[2].classList.add('current')
                     bullet[0].classList.remove('current')
                     bullet[1].classList.remove('current')
